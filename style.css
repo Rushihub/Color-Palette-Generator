@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    font-family: "PT Serif", serif;
+}
+
+.palettes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+#one, #two, #three, #four, #five{
+    height: 300px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#oneHead, #twoHead, #threeHead, #fourHead, #fiveHead{
+    font-size: 10px;
+    margin-bottom: 40px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+#random{
+    border:none;
+    border-bottom: 2px solid blue;
+    outline:none;
+    width: 20%;
+    background-color: #fff;
+    color: #000;
+    font-family: "PT Serif", serif;
+    cursor: pointer;
+}
